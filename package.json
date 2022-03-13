@@ -1,12 +1,12 @@
 {
-  "name": "codekata-template-typescript",
+  "name": "HSC-Tool",
   "version": "1.0.0",
-  "author": "Sergio Gómez <sergio@uco.es>",
+  "author": "MarcosRigal <riveragavilanmarcos@gmail.com>",
   "main": "index.js",
   "license": "AGPL-3.0",
   "devDependencies": {
     "@types/jest": "^27.0.3",
-    "@types/node": "^16.11.10",
+    "@types/node": "^16.11.26",
     "@typescript-eslint/eslint-plugin": "^5.4.0",
     "@typescript-eslint/parser": "^5.4.0",
     "eslint": "^8.3.0",
@@ -24,6 +24,10 @@
     "format-check": "prettier --check '**/*.ts'",
     "lint": "eslint . --ext .ts,.tsx",
     "test": "jest",
-    "all": "npm run format-check && npm run lint && npm test"
+    "all": "npm test && deno run --allow-net ./src/main.ts"
+  },
+  "dependencies": {
+    "cross-fetch": "^3.1.5",
+    "node-fetch": "^3.2.3"
   }
 }
