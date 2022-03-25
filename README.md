@@ -1,4 +1,4 @@
-# HSC-Tool
+# HSC-Tool :heavy_check_mark:
 
 
 ## Introduction :computer:
