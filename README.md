@@ -31,22 +31,21 @@ Validar el código html de los documentos de un directorio.
 
 ### Uso :minidisc:
 
-_Uso xddd_
-
-```
-ejemplo
-```
+Certificar y validar que un documento html siga el estándar.
 
 ## Build with :cd:
 
-_Mencion las herramientas_
-
-[![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)]()
-[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
-[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)]()
+[![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
 
 ## Authors :black_nib:
 
 _Participantes en el proyecto_
 
-* **Marcos Rivera Gavilán** - *Documentación* - [MarcosRigal](https://github.com/MarcosRigal)
+* **Marcos Rivera Gavilán** - [Github](https://github.com/MarcosRigal)
+* **Pablo López Gosálvez** - [Github](https://github.com/pabloccf)
+* **María Duque Román** - [Github](https://github.com/mariaduq)
+* **Natalia Jiménez Aranda** - [Github](https://github.com/NataliaJimenez01)
+* **Ignacio Montserrat Martínez** - [Github](https://github.com/nachomm01)
+* **Adrián Leiva Rojano** - [Github](https://github.com/leivaa21)
+* **Marcos Rodríguez Moreno** - [Github](https://github.com/marc-doblefilo)
+* **Juanjo Trenado Zafra** - [Github](https://github.com/JJtrenado)
