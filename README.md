@@ -1,23 +1,35 @@
-# HSC-Tool :heavy_check_mark:
+<!-- # HSC-Tool :heavy_check_mark: -->
+<h1 align="center">
+<br>
+HSC-TOOL
+<br>
+<img src="https://github.com/HSC-Extension/HSC-Tool/blob/main/logoLegislacion.png" alt="HSC-Tool">
+<br>
+</h1>
 
+<h3 align="center">Validador de html </h3>
 
-## Introduction :computer:
+# Empezando
 
-_Breve **descripción** del proyecto._
+Estas instrucciones cubrirán la información principal:
 
-### Instalación 	:computer_mouse:
+## Introducción :computer:
+
+HSC-Tool es una herramienta de desarrollo cuyo objetivo principal es ofrecer a los desarrolladores la posibilidad de validar en tiempo real la accesibilidad de su código html.
+
+<!-- ## Instalación 	:computer_mouse:
 
 _Desarrollo de la instalación_
 
 ```
  ejemplo
 ```
+-->
+## Funcionalidades :floppy_disk: 
 
-## Funtionalities :floppy_disk: 
+Validar el código html de los documentos de un directorio.
 
-_Explicación funcionalidades_
-
-### Use :minidisc:
+### Uso :minidisc:
 
 _Uso xddd_
 
