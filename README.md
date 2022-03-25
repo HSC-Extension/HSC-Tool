@@ -1,4 +1,3 @@
-<!-- # HSC-Tool :heavy_check_mark: -->
 <h1 align="center">
 <br>
 HSC-TOOL
@@ -38,8 +37,6 @@ Certificar y validar que un documento html siga el estándar.
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
 
 ## Authors :black_nib:
-
-_Participantes en el proyecto_
 
 * **Marcos Rivera Gavilán** - [Github](https://github.com/MarcosRigal)
 * **Pablo López Gosálvez** - [Github](https://github.com/pabloccf)
