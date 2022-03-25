@@ -35,6 +35,7 @@ Certificar y validar que un documento html siga el estándar.
 ## Build with :cd:
 
 [![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)]()
+[![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)]()
 
 ## Authors :black_nib:
 
