@@ -1,19 +1,20 @@
+import axios from 'axios';
 import { getArrayOfHTMLFiles } from './functions';
-import fetch from 'cross-fetch';
 
 let arrayOfHTMLFiles = getArrayOfHTMLFiles();
 
 for (const file of arrayOfHTMLFiles) {
+
   //POST request with body equal on data in JSON format
-  fetch('https://validator.w3.org/nu/?out=json', {
-    method: 'POST',
+  axios({
+    method: 'post',
+    url: 'https://validator.w3.org/nu/?out=json',
+    data: '@' + file,
     headers: {
       'Content-Type': 'text/html; charset=utf-8',
     },
-    body: '@' + file,
   })
-    .then((response) => response.json())
-    //Then with the data from the response in JSON...
+    .then((response) => response.data)
     .then((data) => {
       console.table(data.messages);
     })
@@ -22,3 +23,5 @@ for (const file of arrayOfHTMLFiles) {
       console.error('Error:', error);
     });
 }
+
+
