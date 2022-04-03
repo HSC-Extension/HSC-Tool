@@ -1,15 +1,16 @@
 import axios from 'axios';
-import { getArrayOfHTMLFiles } from './functions';
+import { readFileSync } from 'fs';
+import getAllFilePaths from './functions';
 
-let arrayOfHTMLFiles = getArrayOfHTMLFiles();
+let arrayOfHTMLFiles = getAllFilePaths('/home/marcos/Repositories/HSC-Tool/src/');
 
 for (const file of arrayOfHTMLFiles) {
-
+  const content = readFileSync(file, 'utf-8');
   //POST request with body equal on data in JSON format
   axios({
     method: 'post',
     url: 'https://validator.w3.org/nu/?out=json',
-    data: '@' + file,
+    data: content,
     headers: {
       'Content-Type': 'text/html; charset=utf-8',
     },
@@ -23,5 +24,3 @@ for (const file of arrayOfHTMLFiles) {
       console.error('Error:', error);
     });
 }
-
-
